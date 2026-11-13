@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #FBF6EE ;
+    font-family: "Afacad Flux", serif;
+}
+#no{
+font-family: "Zain",sans-serif;
+}
+.slant{
+    height: 200px;
+    background-color: #4a4640 ;
+    clip-path:  polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
