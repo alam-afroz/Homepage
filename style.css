@@ -93,8 +93,13 @@ align-self: center;
     grid-template-rows: 72% 28% ;
     animation: zoom 500ms ease  both;
     animation-timeline: view();
+    transition: transform 200ms ease ;
 
 }
+.card:hover{
+    transform: rotate(60deg);
+}
+
 @keyframes zoom {
 	from{
 	transform:scale(0.7);
