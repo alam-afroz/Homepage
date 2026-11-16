@@ -72,6 +72,8 @@ font-size: var(--text-size);
 .icon {
     width: 28px;
     transition: transform 200ms ease;
+    cursor: pointer;
+
 }
 .icon:hover{
     transform: scale(1.2);
@@ -88,8 +90,7 @@ align-self: center;
 
 
 .card {
-    /*width: 100px;
-    height: 100px;*/
+
     background-color: var(--primary-accent-color);
     outline: 2px solid var(--primary-accent-color);
     box-shadow: 2px 2px 8px var(--primary-accent-color);
@@ -128,6 +129,7 @@ box-shadow: 2px 2px 8px var(--primary-accent-color);
 }
 .project{
     mix-blend-mode: luminosity;
+    cursor: pointer;
 }
 .project:hover{
     mix-blend-mode:normal ;
