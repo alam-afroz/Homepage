@@ -91,7 +91,20 @@ align-self: center;
     box-shadow: 2px 2px 8px var(--primary-accent-color);
     display: grid;
     grid-template-rows: 72% 28% ;
+    animation: zoom 500ms ease 100ms both;
+
 }
+@keyframes zoom {
+	from{
+	transform:scale(0.7);
+	opacity: 0%;
+	}
+	to{
+	transform:scale(1);
+	opacity: 100%;
+	}
+}
+
 .description{
     background-color: var(--secondary_accent_color);
     height: 100%;
