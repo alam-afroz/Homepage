@@ -17,9 +17,6 @@
         z-index: 1;
         top: 30%;
 
-        font-size: 52px;
-        color: var(--secondary_accent_color);
-        text-shadow: 1px 2px 8px var(--primary-accent-color);
     }
     .about_me{
         grid-row:2/3;
@@ -73,6 +70,10 @@ footer{
     grid-row: 1/2;
     justify-self: center;
     font-size: var(--heading-size);
+    margin: 40px;
+    position: relative;
+    z-index: 1;
+    bottom: 50%;
 }
 .extra{
 grid-row:2/3 ;
@@ -114,7 +115,153 @@ address{
 .footer_img{
     grid-row: 7/8;
     width: 100vw;
-
-    /*height: 100%;*/
 }
+}
+@media(500px <= width <=1000px){
+.slant{
+    height: 400px;
+    position: relative;
+    z-index: 0;
+}
+.about_me_section{
+margin: 0px 80px;
+
+
+margin-top: -240px;
+position: relative;
+/*top: 100%;*/
+z-index: 2;
+
+  grid-template-rows: auto auto;
+  grid-template-columns: 40% 60% ;
+  background-color: var(--secondary_accent_color);
+  box-shadow: 2px 2px 8px var(--primary-accent-color);
+  animation: slide-up 1s ease 200ms both;
+
+}
+.header_img{
+
+grid-row: 1/2;
+grid-column: 1/2;
+/*margin-top: 100px;*/
+position: relative;
+bottom: 20%;
+right: 10%;
+    z-index: 3;
+}
+.name{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    bottom: 60%;
+    right: 10%;
+    z-index: 4;
+}
+.about_me{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    position: relative;
+    bottom: 40%;
+}
+.introduction{
+width: auto;
+grid-row: 1/2;
+grid-column: 2/3;
+position: relative;
+bottom: 10%;
+padding: 32px;
+
+}
+.icons_header{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    position: relative;
+    top: 40%;
+    display: flex;
+    gap: 24px;
+}
+main{
+    margin-top: 64px;
+  grid-template-rows: auto auto ;
+  margin-bottom: 64px;
+padding: 24px;
+}
+.card_section{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+gap: 24px;
+}
+footer{
+    grid-template-rows: 15% 15% 15% 15% 10% 10% 20% ;
+    grid-auto-columns: 60% 40%;
+}
+
+.contact_me{
+    grid-row: 2/3;
+    justify-self: center;
+    font-size: var(--heading-size);
+    /*margin: 40px;*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*bottom: 50%;*/
+}
+.extra{
+grid-row:3/4 ;
+margin: 0px 32px;
+font-size: var(--text-size);
+color: var(--tertiary_accent-color);
+background-color: var(--secondary_accent_color);
+opacity: 60%;
+text-align: center;
+border-radius: 0px 4px 0px 4px;
+}
+.extra:hover{
+    opacity: 80%;
+}
+address{
+    grid-row: 4/5;
+    padding:12px 32px;
+
+}
+.call{
+    grid-row: 5/6;
+    padding: 0px 32px;
+    align-self: end;
+}
+.mail{
+    align-self: start;
+
+    grid-row: 6/7;
+    padding : 0px 32px;
+
+}
+.mail_img,.call_img{
+    display: inline;
+}
+.footer_icons{
+    justify-self: start;
+    padding: 0px 32px;
+    grid-row: 7/8;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    gap: 0px 16px;
+}
+.footer_img{
+    grid-row: 2/6;
+    grid-column: 2/3;
+position: relative;
+z-index: 3;
+
+justify-self: center;
+    width: 30vw;
+}
+
+
+
+
+
+
+
 }
