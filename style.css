@@ -91,7 +91,8 @@ align-self: center;
     box-shadow: 2px 2px 8px var(--primary-accent-color);
     display: grid;
     grid-template-rows: 72% 28% ;
-    animation: zoom 500ms ease 100ms both;
+    animation: zoom 500ms ease  both;
+    animation-timeline: view();
 
 }
 @keyframes zoom {
