@@ -115,7 +115,7 @@ grid-template-columns: 80% 10% 10%;
 justify-items: center;
 align-items: center;
 box-shadow: 2px 2px 8px var(--primary-accent-color);
-
+  z-index: 2;
 }
 .project{
     mix-blend-mode: luminosity;
