@@ -130,3 +130,8 @@ color: var(--primary-accent-color);
 .link{
     height: 20px;
 }
+footer{
+
+   display: grid;
+   background-color: var(--primary-accent-color);
+}
