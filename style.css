@@ -131,7 +131,7 @@ color: var(--primary-accent-color);
     height: 20px;
 }
 footer{
-
+color: var(--secondary_accent_color);
    display: grid;
    background-color: var(--primary-accent-color);
 }
