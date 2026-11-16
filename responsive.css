@@ -193,7 +193,7 @@ padding: 24px;
 gap: 24px;
 }
 footer{
-    grid-template-rows: 15% 15% 15% 15% 10% 10% 20% ;
+    grid-template-rows: 5% 15% 15% 15% 10% 10% 30% ;
     grid-auto-columns: 60% 40%;
 }
 
@@ -246,13 +246,14 @@ address{
     gap: 0px 16px;
 }
 .footer_img{
-    grid-row: 2/6;
+    grid-row: 1/8;
     grid-column: 2/3;
-position: relative;
-z-index: 3;
 
+padding: 16px;
+max-width: 280px;
 justify-self: center;
-    width: 30vw;
+align-self: center;
+
 }
 
 
