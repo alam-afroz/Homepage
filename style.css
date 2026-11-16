@@ -66,7 +66,7 @@ font-size: var(--text-size);
 }
 
 .icon {
-    width: 24px;
+    width: 28px;
     transition: transform 200ms ease;
 }
 .icon:hover{
@@ -138,7 +138,8 @@ font-size: var(--caption-size);
 color: var(--primary-accent-color);
 }
 .github{
-    height: 20px;
+    width: 20px;
+    height: auto;
 
 }
 .link{
@@ -148,4 +149,14 @@ footer{
 color: var(--secondary_accent_color);
    display: grid;
    background-color: var(--primary-accent-color);
+}
+a{
+    display: block;
+    width: 100%;
+}
+
+a > img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
