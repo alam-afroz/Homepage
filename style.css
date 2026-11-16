@@ -61,7 +61,7 @@ body {
 }
 .introduction{
 width: 90vw;
-text-align: left;
+text-align: justify;
 font-size: var(--text-size);
 }
 
