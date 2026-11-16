@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
     .about_me_section {
-        grid-template-rows: 40% auto auto auto;
+        height: auto;
+        grid-template-rows: 40% 8% 32% 5%;
     }
     .header_img {
         position: relative;
