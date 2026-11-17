@@ -10,6 +10,7 @@
         grid-row: 1/2;
         grid-column: 1/2;
         width: 85vw;
+        max-width: 300px;
     }
     .name {
         grid-row: 1/2;
@@ -50,9 +51,13 @@
     }
     .card{
         width: 90vw;
+        max-width:320px ;
+        justify-self: center;
     }
     .project{
         width: 90vw;
+        max-width:320px ;
+
     }
     footer{
         grid-template-rows: 10% 10% 10% 3% 3% 10% auto;
@@ -107,6 +112,7 @@
     .footer_img{
         grid-row: 7/8;
         width: 100vw;
+
     }
 }
 
@@ -168,7 +174,7 @@
 
     padding: 32px;
 
-font-size: 1.5em;
+font-size: 1.3em;
     }
     @media(500px <= width <=700px){
     .introduction{
