@@ -130,6 +130,7 @@ box-shadow: 2px 2px 8px var(--primary-accent-color);
 .project{
     mix-blend-mode: luminosity;
     cursor: pointer;
+    width: 30%;
 }
 .project:hover{
     mix-blend-mode:normal ;
